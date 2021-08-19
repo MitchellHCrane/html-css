@@ -1,0 +1,70 @@
+/* Global Styles*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  margin-bottom: 4rem;
+}
+
+.contentHeading h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700px;
+  font-size: 2.5rem;
+  margin-top: 0;
+  font-style: normal;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.page .underH2 {
+  text-align: center;
+  font-style: "Roboto Slab";
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 4rem;
+  color: #6c757d;
+}
+
+/* Page */
+
+.page {
+  padding: 6rem 0;
+}
+
+.page h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+/* Main Button */
+
+.mainBtn {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ffc800;
+  border: 1px solid;
+  border-color: #ffc800;
+  border-radius: 0.25rem;
+  padding: 20px 40px;
+}
+
+a {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}

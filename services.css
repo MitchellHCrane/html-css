@@ -1,0 +1,21 @@
+.columnGroup {
+    display: flex;
+}
+
+.serviceColumn img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.serviceH4 {
+    text-align: center;
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: calc(1.275rem + 0.3vw)
+}
+
+.serviceP {
+    text-align: center;
+    line-height: 1.75;
+}
