@@ -31,7 +31,7 @@ h1 {
 
 .page .underH2 {
   text-align: center;
-  font-style: "Roboto Slab";
+  font-family: "Roboto Slab";
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
@@ -40,9 +40,50 @@ h1 {
 }
 
 /* Page */
+/* 
+@media (min-width: 1200px)
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container-md, .container-sm, .container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container-sm, .container {
+    max-width: 540px;
+}
+ */
 
 .page {
-  padding: 6rem 0;
+  width: 100%;
+  padding: 2rem 0;
+}
+.page-container {
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+/* Tablet Page Styles  */
+@media (min-width: 770px) {
+  .page {
+    padding: 4rem 0;
+  }
+  .page-container {
+    max-width: 730px;
+  }
+}
+/* Desktop Page Styles  */
+@media (min-width: 1400px) {
+  .page {
+    padding: 6rem 0;
+  }
+  .page-container {
+    max-width: 1360px;
+  }
 }
 
 .page h2 {

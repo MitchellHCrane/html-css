@@ -1,5 +1,28 @@
+/* tablet styles */
+@media (min-width: 770px) {
+    .columnGroup {
+        display: flex;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+  }
+  /* Desktop  Grid Styles  */
+  @media (min-width: 1400px) {
+     {
+   
+    }
+  }
+
+/* Mobile styles */
 .columnGroup {
     display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.serviceColumn {
+    width: 33.33%;
+
 }
 
 .serviceColumn img {
