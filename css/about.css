@@ -1,0 +1,26 @@
+/* MobileStyles */
+.aboutImg {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.yellowCir {
+    border-radius: 100%;
+    background-color: #FFC801;
+    max-width: 100%;
+    height: auto;
+}
+
+.timeLine {
+    display:block;
+    padding: 0 2rem;
+    text-align: center;
+  }
+  /* Tablet Styles  */
+  @media (min-width: 770px) {
+    
+  }
+  /* Desktop Styles  */
+  @media (min-width: 1400px) {
+    
+  }
